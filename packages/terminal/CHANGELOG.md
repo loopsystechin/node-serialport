@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 13.0.0 (2024-04-01)
+
+### Bug Fixes
+
+- **deps:** update dependency @serialport/bindings-cpp to v11.0.3 ([#2658](https://github.com/serialport/node-serialport/issues/2658)) ([8100318](https://github.com/serialport/node-serialport/commit/8100318d68d374f12ccc8d1a4127533a800d6aaa))
+- **deps:** update dependency @serialport/bindings-cpp to v11.0.3 ([#2662](https://github.com/serialport/node-serialport/issues/2662)) ([091528b](https://github.com/serialport/node-serialport/commit/091528baf7a4beb751c5407db23c8378df05dcf4))
+- **deps:** update dependency @serialport/bindings-cpp to v12 ([#2660](https://github.com/serialport/node-serialport/issues/2660)) ([bfd9bad](https://github.com/serialport/node-serialport/commit/bfd9bad2c30bc0147893544f8d652fb7ac2640cf))
+- **deps:** update dependency @serialport/bindings-cpp to v12 ([#2691](https://github.com/serialport/node-serialport/issues/2691)) ([8034a8f](https://github.com/serialport/node-serialport/commit/8034a8ff59d3b02ec9fc8f880a003f85a64ddff5))
+- **deps:** update dependency commander to v11 ([#2692](https://github.com/serialport/node-serialport/issues/2692)) ([39fc12b](https://github.com/serialport/node-serialport/commit/39fc12b8e56a99b1d1583659bc0a4d36debc7709))
+- **deps:** update dependency commander to v9.2.0 ([#2486](https://github.com/serialport/node-serialport/issues/2486)) ([4a14c4d](https://github.com/serialport/node-serialport/commit/4a14c4d817403c603c86be3a76c22634660a1a35))
+- **deps:** update dependency enquirer to v2.4.1 ([#2690](https://github.com/serialport/node-serialport/issues/2690)) ([025ab02](https://github.com/serialport/node-serialport/commit/025ab0236ee751a15962503bc1114063db0487ad))
+- enabling disabled tests rename all pkgs to lib ([#1941](https://github.com/serialport/node-serialport/issues/1941)) ([b1cc840](https://github.com/serialport/node-serialport/commit/b1cc840e5a101765faa2a36ef63b9fa13c83c6bc))
+- improve the options and output of terminal ([#1962](https://github.com/serialport/node-serialport/issues/1962)) ([4b23928](https://github.com/serialport/node-serialport/commit/4b23928cd276d60df7c13ec32084a99752b2c3c1))
+- learn now needs the package-lock.json files ([4b8fc24](https://github.com/serialport/node-serialport/commit/4b8fc248778b69f7afde17ab9ef791ef8867c4a5))
+- lint ([d7e81a0](https://github.com/serialport/node-serialport/commit/d7e81a0f25fbed3b005759a5a67743f53ece0fb9))
+- npmignore should ignore .DS_Store files ([#1954](https://github.com/serialport/node-serialport/issues/1954)) ([eb6b57b](https://github.com/serialport/node-serialport/commit/eb6b57bffe33c9bc7775bb6b0fdf1081db86ebcc))
+- stopbits definition and move binding-mock ([#2419](https://github.com/serialport/node-serialport/issues/2419)) ([63ec6bb](https://github.com/serialport/node-serialport/commit/63ec6bb7d6be312bcc8d0976c9780325c9898632))
+- uncomment node shebang line in terminal package ([#2023](https://github.com/serialport/node-serialport/issues/2023)) ([2a59726](https://github.com/serialport/node-serialport/commit/2a5972684367083595cf75e489f1165d24844423))
+
+### chore
+
+- remove node6 support and upgrade codebase ([#1851](https://github.com/serialport/node-serialport/issues/1851)) ([d4f15c0](https://github.com/serialport/node-serialport/commit/d4f15c0a09750bdb42e5631ffc412c28b9f09174))
+- upgrade packages and minimum node ([#2630](https://github.com/serialport/node-serialport/issues/2630)) ([daffa1a](https://github.com/serialport/node-serialport/commit/daffa1ae78895b3ed51db708219b312845bcd82b))
+
+### Features
+
+- have terminal ask for baudRate ([#2423](https://github.com/serialport/node-serialport/issues/2423)) ([d795f20](https://github.com/serialport/node-serialport/commit/d795f205f9384cacf6bfc73712d5ddc897da2f2e))
+- move cli tools to their own packages ([#1664](https://github.com/serialport/node-serialport/issues/1664)) ([103498e](https://github.com/serialport/node-serialport/commit/103498e8dd1a13b36f3e730a2c397da43e138c9a)), closes [#1659](https://github.com/serialport/node-serialport/issues/1659)
+- Node-API migration ([#2305](https://github.com/serialport/node-serialport/issues/2305)) ([2fe7d43](https://github.com/serialport/node-serialport/commit/2fe7d434ca087f95a09ed9a3274d8b5f24e09ab4))
+- Pin version numbers for all monorepo packages ([#2275](https://github.com/serialport/node-serialport/issues/2275)) ([4fbb973](https://github.com/serialport/node-serialport/commit/4fbb973e9ea7de4dd00494b9293a428ac1c3a1e2))
+- platform specific open options ([#2428](https://github.com/serialport/node-serialport/issues/2428)) ([b3bead4](https://github.com/serialport/node-serialport/commit/b3bead45844498a9071c2e2edbcc2baf995bece5))
+- **terminal:** Add flow control mode ([#2361](https://github.com/serialport/node-serialport/issues/2361)) ([311527e](https://github.com/serialport/node-serialport/commit/311527e9c6059f2d06873d932b025b940c5cfda7))
+- Typescript everything ([#2406](https://github.com/serialport/node-serialport/issues/2406)) ([7ae6e51](https://github.com/serialport/node-serialport/commit/7ae6e51a84738da1999863a80f4ec8ce7acd953a))
+- upgrade serialport-cpp for windows rts-mode ([#2448](https://github.com/serialport/node-serialport/issues/2448)) ([9f34f85](https://github.com/serialport/node-serialport/commit/9f34f85fc8109357190ecf115ce3099dd2dd7a69))
+- upgrade serialport/bindings-cpp ([#2557](https://github.com/serialport/node-serialport/issues/2557)) ([cbb344d](https://github.com/serialport/node-serialport/commit/cbb344d1f75b52ee83fca7c7598f952f8db9c956))
+
+### Reverts
+
+- Revert "fix(deps): update dependency @serialport/bindings-cpp to v12" (#2664) ([bbbf516](https://github.com/serialport/node-serialport/commit/bbbf5163cf82ed881efd12ed516c6e55f1304765)), closes [#2664](https://github.com/serialport/node-serialport/issues/2664)
+
+### BREAKING CHANGES
+
+- drop node 12
+- This release switches to NAPI which changes how many binaries are released and will potentially break your build system
+- bindings now use async functions so they’ll never throw, only reject
+
 # [12.0.0](https://github.com/serialport/node-serialport/compare/v11.0.1...v12.0.0) (2023-08-29)
 
 ### Bug Fixes
